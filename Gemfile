@@ -7,6 +7,7 @@ gem 'pg'
 
 # Backend
 gem 'jbuilder', '~> 1.2'
+gem 'yajl-ruby', :require => 'yajl'
 
 # Frontend
 # See https://github.com/sstephenson/execjs#readme for more supported runtimes
