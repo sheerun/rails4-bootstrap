@@ -20,6 +20,11 @@ gem 'jquery-rails'
 gem 'turbolinks'
 gem 'quiet_assets', '~> 1.0'
 
+group :development do
+  gem 'better_errors'
+  gem 'binding_of_caller'
+end
+
 group :test do
   gem 'rspec-rails', '~> 2.14'
 end
