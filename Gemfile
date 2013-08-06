@@ -21,8 +21,14 @@ gem 'turbolinks'
 gem 'quiet_assets', '~> 1.0'
 
 group :development do
+  gem 'awesome_print'
   gem 'better_errors'
   gem 'binding_of_caller'
+
+  gem 'pry'
+  gem 'pry-doc'
+  gem 'pry-byebug'
+  gem 'pry-stack_explorer'
 end
 
 group :test do
