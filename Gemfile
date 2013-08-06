@@ -10,8 +10,8 @@ gem 'jbuilder', '~> 1.2'
 gem 'yajl-ruby', :require => 'yajl'
 
 # Frontend
-# See https://github.com/sstephenson/execjs#readme for more supported runtimes
-# gem 'therubyracer', platforms: :ruby
+# For assets precompilation on non-macs install node.js.
+# therubyracer is discouraged because of high memory usage.
 gem 'sass-rails', '~> 4.0.0'
 gem 'uglifier', '>= 1.3.0'
 gem 'coffee-rails', '~> 4.0.0'
