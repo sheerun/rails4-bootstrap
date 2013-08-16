@@ -8,13 +8,9 @@ Every commit is assigned to Github issue. Each alternative being evaludated.
 
 Please read the [closed issues](https://github.com/sheerun/rails4-bootstrap/issues?state=closed) of this repository.
 
-Each closed issue marked with `accepted` tag introduces some changes.
-
 ## Contributing
 
-Please read the [open issues](https://github.com/sheerun/rails4-bootstrap/issues?state=open) of this repository.
-
-I constantly browse open source projects seeking improvement ideas, add them as issues, evaluate, and implement.
+I constantly browse open source projects seeking improvement ideas, add them as issues, evaluate, and implement. Please read the [open issues](https://github.com/sheerun/rails4-bootstrap/issues?state=open) of this repository for ideas pending for evaluation.
 
 One good idea for you is to send patches/issues from your own projects.
 
