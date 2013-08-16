@@ -22,8 +22,8 @@ gem 'quiet_assets', '~> 1.0'
 
 group :development do
   gem 'awesome_print'
-  gem 'better_errors'
-  gem 'binding_of_caller'
+  gem 'better_errors', :platform => :ruby
+  gem 'binding_of_caller', :platform => :ruby
 
   gem 'pry'
   gem 'pry-doc'
