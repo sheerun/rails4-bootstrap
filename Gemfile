@@ -6,6 +6,7 @@ gem 'rails', '4.0.0'
 gem 'pg'
 
 # Backend
+gem 'figaro', '~> 0.7'
 gem 'jbuilder', '~> 1.2'
 gem 'yajl-ruby', :require => 'yajl'
 
