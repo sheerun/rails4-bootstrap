@@ -1,4 +1,7 @@
-# Rails 4 Bootstrap
+# Rails 4 Bootstrap [![Code Climate][codeclimate-img-url]][codeclimate-url] 
+
+[codeclimate-img-url]: https://codeclimate.com/github/sheerun/rails4-bootstrap.png
+[codeclimate-url]: https://codeclimate.com/github/sheerun/rails4-bootstrap
 
 My systematic way of making bullet-proof Rails 4 bootstrap template.
 
