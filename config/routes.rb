@@ -53,4 +53,9 @@ Application.routes.draw do
   #     # (app/controllers/admin/products_controller.rb)
   #     resources :products
   #   end
+  
+  match '(errors)/:status', to: 'errors#show',
+    constraints: { status: /\d{3}/ },
+    defaults: { status: '500' },
+    via: :all
 end

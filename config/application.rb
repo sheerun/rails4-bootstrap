@@ -13,4 +13,6 @@ class Application < Rails::Application
     g.javascripts = false
     g.helper = false
   end
+
+  config.exceptions_app = self.routes
 end
