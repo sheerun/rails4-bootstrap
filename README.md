@@ -4,6 +4,8 @@ My systematic way of making bullet-proof Rails 4 bootstrap template.
 
 Every commit is assigned to Github issue. Each alternative being evaluated.
 
+Essential things in the master branch, optional features in branches, ready for fast-forward merging.
+
 ## Changes introduced
 
 Please read [closed issues](https://github.com/sheerun/rails4-bootstrap/issues?state=closed) of this repository.
