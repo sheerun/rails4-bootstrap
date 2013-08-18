@@ -7,6 +7,7 @@ gem 'pg'
 
 # Backend
 gem 'figaro', '~> 0.7'
+gem 'dotenv-rails', '~> 0.8'
 gem 'jbuilder', '~> 1.2'
 gem 'yajl-ruby', :require => 'yajl'
 
