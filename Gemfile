@@ -7,15 +7,15 @@ gem 'pg'
 
 # Backend
 gem 'figaro', '~> 0.7'
-gem 'dotenv-rails', '~> 0.8'
-gem 'jbuilder', '~> 1.2'
+gem 'dotenv-rails', '~> 0.9'
+gem 'jbuilder', '~> 1.5'
 gem 'yajl-ruby', :require => 'yajl'
 
 # Frontend
 # For assets precompilation on non-macs install node.js.
 # therubyracer is discouraged because of high memory usage.
 gem 'sass-rails', '~> 4.0.0'
-gem 'uglifier', '>= 1.3.0'
+gem 'uglifier', '~> 2.2'
 gem 'coffee-rails', '~> 4.0.0'
 gem 'slim-rails', '~> 2.0'
 gem 'jquery-rails'
