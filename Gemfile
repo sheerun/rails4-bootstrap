@@ -27,7 +27,7 @@ group :development do
   gem 'better_errors', :platform => :ruby
   gem 'binding_of_caller', :platform => :ruby
 
-  gem 'pry'
+  gem 'pry', '0.9.12.2'
   gem 'pry-doc'
   gem 'pry-byebug'
   gem 'pry-stack_explorer'
