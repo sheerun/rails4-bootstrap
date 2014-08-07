@@ -8,7 +8,7 @@ gem 'pg', '~> 0.17.1'
 gem 'figaro', '~> 0.7.0'
 gem 'dotenv-rails', '~> 0.11.1'
 gem 'jbuilder', '~> 2.1.3'
-gem 'yajl-ruby', '~> 1.2.0', :require => 'yajl'
+gem 'yajl-ruby', '~> 1.2.0', :require => 'yajl/json_gem'
 
 # Frontend
 # For assets precompilation on non-macs install node.js.
@@ -29,7 +29,6 @@ group :development do
   gem 'pry'
   gem 'pry-doc'
   gem 'pry-byebug'
-  gem 'pry-stack_explorer'
 end
 
 group :test do

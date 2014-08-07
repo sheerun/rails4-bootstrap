@@ -89,9 +89,6 @@ GEM
     pry-doc (0.6.0)
       pry (~> 0.9)
       yard (~> 0.8)
-    pry-stack_explorer (0.4.9.1)
-      binding_of_caller (>= 0.7)
-      pry (>= 0.9.11)
     quiet_assets (1.0.3)
       railties (>= 3.1, < 5.0)
     rack (1.5.2)
@@ -187,7 +184,6 @@ DEPENDENCIES
   pry
   pry-byebug
   pry-doc
-  pry-stack_explorer
   quiet_assets (~> 1.0)
   rails (= 4.1.4)
   rspec-rails (~> 3.0)
