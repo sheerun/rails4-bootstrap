@@ -1,13 +1,13 @@
 source 'https://rubygems.org'
 
 # Core
-gem 'rails', '4.0.2'
+gem 'rails', '4.1.4'
 gem 'pg', '~> 0.17.1'
 
 # Backend
 gem 'figaro', '~> 0.7.0'
-gem 'dotenv-rails', '~> 0.9.0'
-gem 'jbuilder', '~> 2.0.2'
+gem 'dotenv-rails', '~> 0.11.1'
+gem 'jbuilder', '~> 2.1.3'
 gem 'yajl-ruby', '~> 1.2.0', :require => 'yajl'
 
 # Frontend
