@@ -26,13 +26,13 @@ group :development do
   gem 'better_errors', :platform => :ruby
   gem 'binding_of_caller', :platform => :ruby
 
-  gem 'pry', '0.9.12.2'
+  gem 'pry'
   gem 'pry-doc'
   gem 'pry-byebug'
   gem 'pry-stack_explorer'
 end
 
 group :test do
-  gem 'rspec-rails', '~> 2.14'
+  gem 'rspec-rails', '~> 3.0'
   gem 'database_cleaner', '~> 1.2'
 end
