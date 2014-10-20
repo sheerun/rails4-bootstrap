@@ -15,6 +15,11 @@ gem 'uglifier', '~> 2.4'
 gem 'slim-rails', '~> 2.0'
 gem 'quiet_assets', '~> 1.0'
 
+# Background jobs
+gem 'sidekiq'
+gem 'sidekiq-failures'
+gem 'sinatra', '>= 1.3.0', :require => nil
+
 group :development do
   gem 'awesome_print'
   gem 'better_errors', :platform => :ruby
