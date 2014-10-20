@@ -9,8 +9,6 @@ gem 'dotenv-rails', '~> 1.0.2'
 gem 'yajl-ruby', '~> 1.2.0', :require => 'yajl/json_gem'
 
 # Frontend
-# For assets precompilation on non-macs install node.js.
-# therubyracer is discouraged because of high memory usage.
 gem 'coffee-rails', '~> 4.1.0'
 gem 'sass-rails', '~> 4.0.0'
 gem 'uglifier', '~> 2.4'

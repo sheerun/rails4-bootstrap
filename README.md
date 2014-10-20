@@ -13,6 +13,11 @@ Every commit is assigned to Github issue. Each alternative being evaluated.
 
 Essential things in the master branch, optional features in branches, ready for fast-forward merging.
 
+## Requirements:
+
+1. Ruby >= 2.0
+2. Node.js installed (for assets precompilation)
+
 ## License
 
 As Rails, this project is [MIT-licensed](http://opensource.org/licenses/mit-license.php). As usual, you are awesome.
